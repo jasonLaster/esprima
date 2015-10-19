@@ -1,47 +1,21 @@
 {
+    "range": [
+        8,
+        10
+    ],
+    "loc": {
+        "start": {
+            "line": 2,
+            "column": 4
+        },
+        "end": {
+            "line": 2,
+            "column": 6
+        }
+    },
     "type": "Program",
     "body": [
         {
-            "type": "ExpressionStatement",
-            "expression": {
-                "type": "Literal",
-                "value": 42,
-                "raw": "42",
-                "range": [
-                    8,
-                    10
-                ],
-                "loc": {
-                    "start": {
-                        "line": 2,
-                        "column": 4
-                    },
-                    "end": {
-                        "line": 2,
-                        "column": 6
-                    }
-                }
-            },
-            "leadingComments": [
-                {
-                    "type": "Block",
-                    "value": "a\nc",
-                    "range": [
-                        0,
-                        7
-                    ],
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 3
-                        }
-                    }
-                }
-            ],
             "range": [
                 8,
                 10
@@ -55,30 +29,30 @@
                     "line": 2,
                     "column": 6
                 }
+            },
+            "type": "ExpressionStatement",
+            "expression": {
+                "range": [
+                    8,
+                    10
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 6
+                    }
+                },
+                "type": "Literal",
+                "value": 42,
+                "raw": "42"
             }
         }
     ],
     "sourceType": "script",
-    "comments": [
-        {
-            "type": "Block",
-            "value": "a\nc",
-            "range": [
-                0,
-                7
-            ],
-            "loc": {
-                "start": {
-                    "line": 1,
-                    "column": 0
-                },
-                "end": {
-                    "line": 2,
-                    "column": 3
-                }
-            }
-        }
-    ],
     "tokens": [
         {
             "type": "Numeric",
@@ -98,19 +72,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        8,
-        10
-    ],
-    "loc": {
-        "start": {
-            "line": 2,
-            "column": 4
-        },
-        "end": {
-            "line": 2,
-            "column": 6
-        }
-    }
+    ]
 }

@@ -66,51 +66,11 @@
                     }
                 },
                 "type": "BlockStatement",
-                "body": [],
-                "innerComments": [
-                    {
-                        "type": "Block",
-                        "value": "*\n   * comments in empty block\n   ",
-                        "range": [
-                            17,
-                            55
-                        ],
-                        "loc": {
-                            "start": {
-                                "line": 2,
-                                "column": 2
-                            },
-                            "end": {
-                                "line": 4,
-                                "column": 5
-                            }
-                        }
-                    }
-                ]
+                "body": []
             }
         }
     ],
     "sourceType": "script",
-    "comments": [
-        {
-            "type": "Block",
-            "value": "*\n   * comments in empty block\n   ",
-            "range": [
-                17,
-                55
-            ],
-            "loc": {
-                "start": {
-                    "line": 2,
-                    "column": 2
-                },
-                "end": {
-                    "line": 4,
-                    "column": 5
-                }
-            }
-        }
-    ],
     "tokens": [
         {
             "type": "Keyword",

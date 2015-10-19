@@ -1,8 +1,21 @@
 {
+    "range": [
+        0,
+        9
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 9
+        }
+    },
     "type": "Program",
     "body": [
         {
-            "type": "DebuggerStatement",
             "range": [
                 0,
                 9
@@ -16,7 +29,8 @@
                     "line": 1,
                     "column": 9
                 }
-            }
+            },
+            "type": "DebuggerStatement"
         }
     ],
     "sourceType": "script",
@@ -57,19 +71,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        0,
-        9
-    ],
-    "loc": {
-        "start": {
-            "line": 1,
-            "column": 0
-        },
-        "end": {
-            "line": 1,
-            "column": 9
-        }
-    }
+    ]
 }

@@ -1,27 +1,21 @@
 {
+    "range": [
+        0,
+        15
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 2,
+            "column": 6
+        }
+    },
     "type": "Program",
     "body": [
         {
-            "type": "ExpressionStatement",
-            "expression": {
-                "type": "Literal",
-                "value": "Helloworld",
-                "raw": "\"Hello\\\r\nworld\"",
-                "range": [
-                    0,
-                    15
-                ],
-                "loc": {
-                    "start": {
-                        "line": 1,
-                        "column": 0
-                    },
-                    "end": {
-                        "line": 2,
-                        "column": 6
-                    }
-                }
-            },
             "range": [
                 0,
                 15
@@ -35,6 +29,26 @@
                     "line": 2,
                     "column": 6
                 }
+            },
+            "type": "ExpressionStatement",
+            "expression": {
+                "range": [
+                    0,
+                    15
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 6
+                    }
+                },
+                "type": "Literal",
+                "value": "Helloworld",
+                "raw": "\"Hello\\\r\nworld\""
             }
         }
     ],
@@ -58,19 +72,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        0,
-        15
-    ],
-    "loc": {
-        "start": {
-            "line": 1,
-            "column": 0
-        },
-        "end": {
-            "line": 2,
-            "column": 6
-        }
-    }
+    ]
 }

@@ -1,27 +1,21 @@
 {
+    "range": [
+        0,
+        13
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 13
+        }
+    },
     "type": "Program",
     "body": [
         {
-            "type": "SwitchStatement",
-            "discriminant": {
-                "type": "Identifier",
-                "name": "x",
-                "range": [
-                    8,
-                    9
-                ],
-                "loc": {
-                    "start": {
-                        "line": 1,
-                        "column": 8
-                    },
-                    "end": {
-                        "line": 1,
-                        "column": 9
-                    }
-                }
-            },
-            "cases": [],
             "range": [
                 0,
                 13
@@ -35,7 +29,27 @@
                     "line": 1,
                     "column": 13
                 }
-            }
+            },
+            "type": "SwitchStatement",
+            "discriminant": {
+                "range": [
+                    8,
+                    9
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 8
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 9
+                    }
+                },
+                "type": "Identifier",
+                "name": "x"
+            },
+            "cases": []
         }
     ],
     "sourceType": "script",
@@ -148,19 +162,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        0,
-        13
-    ],
-    "loc": {
-        "start": {
-            "line": 1,
-            "column": 0
-        },
-        "end": {
-            "line": 1,
-            "column": 13
-        }
-    }
+    ]
 }

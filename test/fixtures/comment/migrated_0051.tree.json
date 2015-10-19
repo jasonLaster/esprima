@@ -1,4 +1,18 @@
 {
+    "range": [
+        0,
+        51
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 4,
+            "column": 2
+        }
+    },
     "type": "Program",
     "body": [
         {
@@ -6,12 +20,32 @@
                 0,
                 51
             ],
+            "loc": {
+                "start": {
+                    "line": 1,
+                    "column": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 2
+                }
+            },
             "type": "ExpressionStatement",
             "expression": {
                 "range": [
                     14,
                     50
                 ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 14
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 1
+                    }
+                },
                 "type": "ObjectExpression",
                 "properties": [
                     {
@@ -19,12 +53,32 @@
                             40,
                             48
                         ],
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 4
+                            },
+                            "end": {
+                                "line": 3,
+                                "column": 12
+                            }
+                        },
                         "type": "Property",
                         "key": {
                             "range": [
                                 40,
                                 42
                             ],
+                            "loc": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 6
+                                }
+                            },
                             "type": "Identifier",
                             "name": "p1"
                         },
@@ -34,57 +88,29 @@
                                 44,
                                 48
                             ],
+                            "loc": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 8
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 12
+                                }
+                            },
                             "type": "Literal",
                             "value": null,
                             "raw": "null"
                         },
                         "kind": "init",
                         "method": false,
-                        "shorthand": false,
-                        "leadingComments": [
-                            {
-                                "type": "Block",
-                                "value": " comment 2 ",
-                                "range": [
-                                    20,
-                                    35
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "leadingComments": [
-                    {
-                        "type": "Block",
-                        "value": " comment ",
-                        "range": [
-                            1,
-                            14
-                        ]
+                        "shorthand": false
                     }
                 ]
             }
         }
     ],
     "sourceType": "script",
-    "comments": [
-        {
-            "type": "Block",
-            "value": " comment ",
-            "range": [
-                1,
-                14
-            ]
-        },
-        {
-            "type": "Block",
-            "value": " comment 2 ",
-            "range": [
-                20,
-                35
-            ]
-        }
-    ],
     "tokens": [
         {
             "type": "Punctuator",
@@ -92,7 +118,17 @@
             "range": [
                 0,
                 1
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 1,
+                    "column": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 1
+                }
+            }
         },
         {
             "type": "Punctuator",
@@ -100,7 +136,17 @@
             "range": [
                 14,
                 15
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 1,
+                    "column": 14
+                },
+                "end": {
+                    "line": 1,
+                    "column": 15
+                }
+            }
         },
         {
             "type": "Identifier",
@@ -108,7 +154,17 @@
             "range": [
                 40,
                 42
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 4
+                },
+                "end": {
+                    "line": 3,
+                    "column": 6
+                }
+            }
         },
         {
             "type": "Punctuator",
@@ -116,7 +172,17 @@
             "range": [
                 42,
                 43
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 6
+                },
+                "end": {
+                    "line": 3,
+                    "column": 7
+                }
+            }
         },
         {
             "type": "Null",
@@ -124,7 +190,17 @@
             "range": [
                 44,
                 48
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 3,
+                    "column": 8
+                },
+                "end": {
+                    "line": 3,
+                    "column": 12
+                }
+            }
         },
         {
             "type": "Punctuator",
@@ -132,7 +208,17 @@
             "range": [
                 49,
                 50
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 4,
+                    "column": 0
+                },
+                "end": {
+                    "line": 4,
+                    "column": 1
+                }
+            }
         },
         {
             "type": "Punctuator",
@@ -140,11 +226,17 @@
             "range": [
                 50,
                 51
-            ]
+            ],
+            "loc": {
+                "start": {
+                    "line": 4,
+                    "column": 1
+                },
+                "end": {
+                    "line": 4,
+                    "column": 2
+                }
+            }
         }
-    ],
-    "range": [
-        0,
-        51
     ]
 }

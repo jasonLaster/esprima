@@ -1,4 +1,18 @@
 {
+    "range": [
+        0,
+        34
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 34
+        }
+    },
     "type": "Program",
     "body": [
         {
@@ -369,19 +383,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        0,
-        34
-    ],
-    "loc": {
-        "start": {
-            "line": 1,
-            "column": 0
-        },
-        "end": {
-            "line": 1,
-            "column": 34
-        }
-    }
+    ]
 }

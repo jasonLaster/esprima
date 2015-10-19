@@ -72,7 +72,7 @@
             "kind": "let"
         }
     ],
-    "sourceType": "module",
+    "sourceType": "script",
     "tokens": [
         {
             "type": "Keyword",

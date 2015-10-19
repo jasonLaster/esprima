@@ -1,66 +1,21 @@
 {
+    "range": [
+        0,
+        9
+    ],
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 9
+        }
+    },
     "type": "Program",
     "body": [
         {
-            "type": "BlockStatement",
-            "body": [
-                {
-                    "type": "VariableDeclaration",
-                    "declarations": [
-                        {
-                            "type": "VariableDeclarator",
-                            "id": {
-                                "type": "Identifier",
-                                "name": "x",
-                                "range": [
-                                    6,
-                                    7
-                                ],
-                                "loc": {
-                                    "start": {
-                                        "line": 1,
-                                        "column": 6
-                                    },
-                                    "end": {
-                                        "line": 1,
-                                        "column": 7
-                                    }
-                                }
-                            },
-                            "init": null,
-                            "range": [
-                                6,
-                                7
-                            ],
-                            "loc": {
-                                "start": {
-                                    "line": 1,
-                                    "column": 6
-                                },
-                                "end": {
-                                    "line": 1,
-                                    "column": 7
-                                }
-                            }
-                        }
-                    ],
-                    "kind": "let",
-                    "range": [
-                        2,
-                        8
-                    ],
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 2
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 8
-                        }
-                    }
-                }
-            ],
             "range": [
                 0,
                 9
@@ -74,7 +29,66 @@
                     "line": 1,
                     "column": 9
                 }
-            }
+            },
+            "type": "BlockStatement",
+            "body": [
+                {
+                    "range": [
+                        2,
+                        8
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 2
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 8
+                        }
+                    },
+                    "type": "VariableDeclaration",
+                    "declarations": [
+                        {
+                            "range": [
+                                6,
+                                7
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 6
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 7
+                                }
+                            },
+                            "type": "VariableDeclarator",
+                            "id": {
+                                "range": [
+                                    6,
+                                    7
+                                ],
+                                "loc": {
+                                    "start": {
+                                        "line": 1,
+                                        "column": 6
+                                    },
+                                    "end": {
+                                        "line": 1,
+                                        "column": 7
+                                    }
+                                },
+                                "type": "Identifier",
+                                "name": "x"
+                            },
+                            "init": null
+                        }
+                    ],
+                    "kind": "let"
+                }
+            ]
         }
     ],
     "sourceType": "script",
@@ -151,19 +165,5 @@
                 }
             }
         }
-    ],
-    "range": [
-        0,
-        9
-    ],
-    "loc": {
-        "start": {
-            "line": 1,
-            "column": 0
-        },
-        "end": {
-            "line": 1,
-            "column": 9
-        }
-    }
+    ]
 }
